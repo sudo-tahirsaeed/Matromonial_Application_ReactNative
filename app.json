@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Shadi Mubarik",
+    "slug": "newproject",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#EF3D4E"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+        "permissions": [
+          "CAMERA",
+          "MEDIA_LIBRARY"
+        ],
+      
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ]
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sudotahir.newproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "3a9f1d73-89ea-40eb-878b-4457b2c8a48e"
+      }
+    }
+  }
+  
+}
+
